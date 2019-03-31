@@ -1,0 +1,40 @@
+.app {
+  width: 650px;
+
+  border: 2px solid gray;
+  border-radius: 50px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  background-size: 100%;
+  position: relative;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+.app form {
+  position: relative;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.app input,
+.app button {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px 20px;
+  border: 2px solid gray;
+  background-color: #ffffff;
+  transition: 0.3s;
+}
+
+.app button {
+  cursor: pointer;
+}
+.app button:hover {
+  background-color: grey;
+  color: white;
+  border-color: grey;
+}
